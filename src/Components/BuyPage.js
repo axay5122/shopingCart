@@ -5,9 +5,7 @@ import CartItem from "./CardItem";
 import { faker } from "@faker-js/faker";
 import { Container, Col, Row } from "reactstrap";
 
-const apiKey = "563492ad6f9170000100000170fbda7bd0f44f96a344cecf229ee17e";
-
-// const localurl = ""
+const apiKey = "Enter your API KEY";
 
 const BuyPage = ({ AddInCart }) => {
   const [product, setProduct] = useState([]);
